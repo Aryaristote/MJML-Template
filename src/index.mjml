@@ -1,0 +1,161 @@
+<mjml>
+  <mj-head>
+    <mj-breakpoint width="600px">
+
+      <mj-attributes>
+        <mj-all color="#2c2c2c" font-family="Arial" padding="0" />
+        <mj-class name="body-text" font-size="14px" line-height="50px" />
+        <mj-class name="list-text" padding-top="10px" font-size="14px" line-height="0" />
+        <mj-class name="btn" fluid-on-mobile="true" border-ridius="8px" inner-padding="7px 105px" align-text="center" font-weight="500" font-size="14px" line-height="22px" />
+        <mj-class name="btnO" fluid-on-mobile="true" border-ridius="8px" inner-padding="7px 105px" align-text="center" font-weight="500" font-size="14px" line-height="22px" />
+      </mj-attributes>
+      <mj-style inline="inline">
+        .link-text {
+          coloe: blue !important;
+          cursor: pointer;
+          text-decoration: none;
+        }
+      </mj-style>
+  </mj-head>
+  <mj-body background-color="#f2f2f2">
+    <!-- Email title -->
+    <mj-section>
+      <mj-group>
+        <mj-column>
+          <mj-text color="#999" font-size="10px" line-height="15px" padding="0" align="center">
+            Make you did your best this time
+          </mj-text>
+        </mj-column>
+      </mj-group>
+    </mj-section>
+    <!-- End Email title  -->
+
+    <!-- Compony Header -->
+    <mj-section>
+      <mj-group>
+        <mj-column background-color="#fff" padding="0">
+          <mj-image src="images/Airbnb-logo.png" alt="" width="130px" />
+        </mj-column>
+      </mj-group>
+    </mj-section>
+    <!-- End Compony Header -->
+
+    <!-- Hero -->
+    <mj-section background-color="#fff" padding="0">
+      <mj-group>
+        <mj-column>
+          <mj-image src="images/family_img.jpg" alt="Body section image" />
+        </mj-column>
+      </mj-group>
+    </mj-section>
+    <!-- End Hero -->
+
+    <!-- Compony Header -->
+    <mj-section>
+      <mj-group>
+        <mj-column background-color="#fff" padding="20px 0">
+          <mj-text mj-class="body-text">
+            <!-- mj-class is a css class declared above -->
+            Hi <strong>Ary Aristote</strong><br><br>
+            Just to inform you that you have been selected for the application next step in our company, the test will 100% online and will conducted by the whole company team.
+            Here is the list of requirements:
+          </mj-text>
+          <mj-text mj-class="list-text">
+            1. Proven experience as computer technician or similar role.
+          </mj-text>
+          <mj-text mj-class="list-text">
+            2. Experience with LAN/WAN networks.
+          </mj-text>
+          <mj-text mj-class="list-text">
+            3. Thorough knowledge of computer systems and IT components.
+          </mj-text>
+          <mj-text mj-class="list-text">
+            4. Good knowledge of internet security and data privacy principles.
+          </mj-text>
+          <mj-text mj-class="list-text">
+            5. Excellent troubleshooting skills.
+          </mj-text>
+          <mj-text mj-class="list-text">
+            6. Very good communication abilities.
+          </mj-text>
+          <mj-text font-size="11px" line-height="15px" color="grey">
+            Aenean a neque non tortor faucibus auctor?<br>
+            Sem luctus ex <a href="https://github.com/Aryaristote" class="link-text" target="_blanc">Cras Porta Dapibus</a> Proin pulvinar tortor vel quam feugiat.
+          </mj-text>
+          <mj-button background-color="#FA8072" inner-padding="7px 105px" font-weight="bold" font-size="14px" line-height="22px" href="https://github.com/Aryaristote" target="_blank" mj-class="btn">
+            Visite our website
+          </mj-button>
+        </mj-column>
+      </mj-group>
+    </mj-section>
+    <!-- End Compony Header -->
+
+    <!-- Company Offices -->
+    <mj-wrapper background-color="#eee" padding="0">
+      <mj-section>
+        <mj-group>
+          <mj-column>
+            <mj-text font-size="25px" align="center">Please find our remote Offices</mj-text>
+          </mj-column>
+        </mj-group>
+      </mj-section>
+
+      <mj-section background-color="#eee">
+        <mj-group>
+          <mj-column>
+            <mj-text font-size="18px" align="center">Miami Head quarter Offices</mj-text>
+            <mj-image src="images/office_1.jpg" alt="Body section image" />
+            <mj-text font-size="14px" align="center">Dr. Kenye West</mj-text>
+            <mj-text font-size="11px" line-height="14px" align="center"> It is one of the major professional sports leagues in the United States and Canada and is considered the premier men's professional basketball league in the world.</mj-text>
+          </mj-column>
+          <mj-column>
+            <mj-text font-size="18px" align="center">Paris, Effeil Tower Office</mj-text>
+            <mj-image src="images/office_2.jpg" alt="Body section image" />
+            <mj-text font-size="14px" align="center">Mr. MOrgan Friman</mj-text>
+            <mj-text font-size="11px" line-height="14px" align="center">The National Basketball Association is a professional basketball league in Northern America composed of 30 teams. </mj-text>
+          </mj-column>
+          <mj-column>
+            <mj-text font-size="18px" align="center">Kenye, Murara Office</mj-text>
+            <mj-image src="images/office_3.jpeg" alt="Body section image" />
+            <mj-text font-size="14px" align="center">Mrs. Lewis Capaldy</mj-text>
+            <mj-text font-size="11px" line-height="14px" align="center">The official site of the National Basketball Association. Follow the action on NBA scores, schedules, stats, news, Team and Player news.The charge.</mj-text>
+          </mj-column>
+        </mj-group>
+      </mj-section>
+      <mj-section background-color="#eee">
+        <mj-column>
+          <mj-button background-color="transparent" color="#FA8072" border="3px solid #FA8072" inner-padding="7px 105px" font-weight="bold" font-size="14px" line-height="22px" href="https://github.com/Aryaristote" target="_blank" mj-class name="btnO">
+            Visite other remote Offices
+          </mj-button>
+        </mj-column>
+      </mj-section>
+    </mj-wrapper>
+    <!-- End Company Offices -->
+
+    <!-- Footer -->
+    <mj-section background-color="#fff" padding="0" border-top="3px solid #FA8072">
+      <mj-group>
+        <mj-column padding="20px 0">
+          <mj-text>
+            <strong>
+              Please contact us through contact provided down the section
+              <strong>
+          </mj-text>
+          <mj-text font-size="11px" line-height="15px" color="grey">
+            <a href="" target="_blank">Terms and services</a> | <a href="" target="_blank">All rights reserved.</a><br>
+            Copyright © 2021 | All rights reserved.<br>
+            Aenean Molestie - Iaculis Turpis Vel Condimentum<br>
+          </mj-text>
+          <mj-text font-size="11px" line-height="15px" color="grey">
+            Please so not reply to this email<br>
+            +243 990 413 132 / +1 (776) 564 6654
+          </mj-text>
+        </mj-column>
+        <mj-column padding="0">
+          <mj-image src="images/Airbnb-logo.png" alt="" width="130px" />
+        </mj-column>
+      </mj-group>
+    </mj-section>
+    <!-- End Hero -->
+  </mj-body>
+</mjml>
